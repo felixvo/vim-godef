@@ -49,6 +49,8 @@ function! Godef(arg)
             tabnew
         elseif g:godef_split == 3
             vsplit
+        elseif g:godef_split == 4
+            edit
         endif
         lexpr out
     end
